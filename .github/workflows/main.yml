@@ -2,7 +2,7 @@ name : Vilas
 
 on:
  push: 
-   branches:  [ Man ]
+   branches:  [ Main ]
 
    jobs:
     cx support SME:
