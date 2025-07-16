@@ -1,0 +1,14 @@
+name : Vilas
+
+on:
+ push: 
+   branches:  [ Man ]
+
+   jobs:
+    cx support SME:
+         runs-oon: ubuntu-latest
+
+         steps:
+         -name: Greetings
+             run: echo "Hello World"
+    
