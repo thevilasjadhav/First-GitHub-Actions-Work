@@ -4,11 +4,11 @@ on:
  push: 
    branches:  [ Main ]
 
-   jobs:
-    cx support SME:
-         runs-on: ubuntu-latest
+jobs:
+ cx-support-SME:
+   runs-on: ubuntu-latest
 
-         steps:
-         -name: Greetings
-             run: echo "Hello World"
+   steps:
+    - name: Greetings
+      run: echo "Hello World"
     
