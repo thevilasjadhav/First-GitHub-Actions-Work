@@ -6,7 +6,7 @@ on:
 
    jobs:
     cx support SME:
-         runs-oon: ubuntu-latest
+         runs-on: ubuntu-latest
 
          steps:
          -name: Greetings
